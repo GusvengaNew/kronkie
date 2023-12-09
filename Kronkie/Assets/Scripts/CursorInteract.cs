@@ -27,10 +27,6 @@ public class CursorInteract : MonoBehaviour
                 // Enable crosshair and set the current usable object
                 EnableCrosshair();
                 currentUsableObject = hitObject;
-
-                // You can add additional logic here for interaction (e.g., pressing a key to use the object)
-                // For now, let's just print a message when the player is looking at a usable object
-                Debug.Log("Looking at a usable object");
             }
             else
             {
